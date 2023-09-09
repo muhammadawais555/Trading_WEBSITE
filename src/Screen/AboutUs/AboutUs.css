@@ -1,0 +1,235 @@
+.about-title .Home-title h1 {
+  text-transform: uppercase;
+  font-size: 28px;
+  padding: 50px 5px;
+  /* padding-bottom: 30px;
+    padding-top: 30px; */
+}
+.about-section {
+  min-height: 75vh;
+}
+.about-container {
+  /* width: 80%; */
+  display: block;
+  margin: auto;
+}
+.about-content-section {
+  float: left;
+}
+.about-image {
+  float: right;
+  /* width: 40%; */
+}
+.about-image img {
+  width: 100%;
+  height: auto;
+}
+.about-content-section .about-title {
+  text-transform: uppercase;
+  font-size: 28px;
+  text-align: center;
+}
+.about-content-section .about-content h3 {
+  /* color: #5d5d5d; */
+  font-size: 30px;
+  /* font-size: 2rem; */
+  color: #ff0077;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+}
+.about-section .about-content p {
+  /* font-family: sans-serif; */
+  line-height: 2rem;
+  font-size: 17px;
+  padding-top: 10px;
+  color: #272727;
+}
+/* For Picture 02 */
+.about-section2 {
+  min-height: 60vh;
+}
+.about-container2 {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.about-content-section2 {
+  float: right;
+  /* width: 55%; */
+}
+.about-content {
+  padding-top: 50px;
+}
+
+.about-content2 {
+  padding-top: 38px;
+}
+.about-image2 {
+  float: left;
+  /* width: 40%; */
+}
+.about-image2 img {
+  width: 100%;
+  height: auto;
+}
+.about-content-section2 .about-title {
+  text-transform: uppercase;
+  font-size: 28px;
+  text-align: center;
+}
+.about-content-section2 .about-content2 h3 {
+  /* color: #5d5d5d; */
+  font-size: 30px;
+  /* font-size: 2rem; */
+  color: #ff0077;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+}
+.about-section2 .about-content2 p {
+  /* font-family: sans-serif; */
+  line-height: 2rem;
+  font-size: 1.2rem;
+  color: #272727;
+}
+.button-home {
+  margin-top: 20px;
+  width: 140px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #ff0077;
+}
+
+.button-home:hover {
+  background-color: rgb(0, 132, 255);
+  transition: all ease 0.3s;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .about-container {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  .about-content-section {
+    /* float: none; */
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .about-content {
+    padding-top: 0px;
+  }
+  .about-image {
+    float: none;
+    width: 100%;
+  }
+  .about-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .about-content-section .about-title {
+    text-align: center;
+    font-size: 19px;
+  }
+  .about-container2 {
+    width: 80%;
+    display: block;
+    margin: auto;
+    /* padding-top: 50px; */
+  }
+  .about-content-section2 {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .about-image2 {
+    float: none;
+    width: 100%;
+  }
+  .about-image2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .about-content-section2 .about-title2 {
+    text-align: center;
+    font-size: 19px;
+  }
+}
+.expect {
+  align-items: center;
+}
+.about___data {
+  padding: 1.875rem;
+  background-color: var(--container-color);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, 200px);
+  column-gap: 1.875rem;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: 30px;
+}
+.about___data:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 150x solid var(--container-color);
+  position: absolute;
+  left: -0.93rem;
+  top: 20%;
+}
+
+.about___skills {
+  row-gap: 1.25rem;
+}
+.skills___titles {
+  /* display: flex;
+  justify-content: space-between; */
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.skills___data {
+  align-items: center;
+}
+.skills___name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+.skills___number {
+  line-height: 1.2;
+}
+.skills___bar,
+.skills___percentage {
+  height: 7px;
+  border-radius: 0.25rem;
+}
+
+.skills___percentage {
+  display: block;
+}
+.development {
+  width: 90%;
+  background-color: rgb(255, 209, 92);
+}
+
+.development2 {
+  width: 80%;
+  background-color: rgb(255, 209, 92);
+}
+.development3 {
+  width: 60%;
+  background-color: rgb(255, 209, 92);
+}

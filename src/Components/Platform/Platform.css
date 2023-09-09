@@ -1,0 +1,79 @@
+.home-wrapper-2 {
+    background-color: var(--color-f5f5f7);
+    border-radius: 1.5rem;
+  }
+  .careers-section {
+    margin-bottom: 50px;
+  }
+  .Home-title h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+    padding: 50px 5px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .careers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .careers-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+  }
+  .careers-services {
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s;
+    box-shadow: 0px 0px 10px 0px rgba(90, 89, 89, 0.2) inset;
+  }
+  /* .careers-services ::after{
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s;
+    box-shadow: 0px 0px 10px 0px rgba(90, 89, 89, 0.2) inset;
+
+    left: 50%;
+    transform: translateX(-50%);
+  } */
+  .careers-services h2 {
+    font-size: 600;
+    margin-bottom: 8px;
+  }
+  /* .careers-services h2::after{
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s;
+    box-shadow: 0px 0px 10px 0px rgba(90, 89, 89, 0.2) inset;
+
+    left: 50%;
+    transform: translateX(-50%);
+  } */
+  .careers-services:hover {
+    background-color: #f7307c;
+    color: #fff;
+    transform: scale(1.05);
+  }
+  .careers-services:hover .careers-icon {
+    color: #fff;
+  }
+  .careers-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #f7307c;
+    vertical-align: middle;
+  }
