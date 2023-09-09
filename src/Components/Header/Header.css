@@ -65,15 +65,13 @@
   color: #ffffff;
 }
 @media (max-width: 970px) {
-  .main {
-    #main {
-      width: 100%;
-      height: 495px;
-      position: relative;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-image: url("../../images/bgimage.jpg");
-    }
+  #main {
+    width: 100%;
+    height: 570px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../images/bgimage2.jpg");
   }
   .name {
     left: 50%;
@@ -89,9 +87,9 @@
     letter-spacing: 2px;
     color: #fff;
   }
-  /* .about-image {
+  .about-image {
     display: none;
-  } */
+  }
   .cv-btn {
     margin-left: 27%;
     margin-top: 20px;

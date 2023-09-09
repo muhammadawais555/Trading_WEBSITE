@@ -24,12 +24,16 @@
 @media screen and (max-width: 768px) {
   .first h3 {
     display: block;
+    font-size: 20px;
+    padding-top: 35px;
   }
   .achievement-content-section2 .achievement-content2 h3 {
     display: none;
   }
   .second p {
     display: block;
+    font-size: 0.9rem;
+    color: var(--text-color);
   }
   .achievement-section2 .achievement-content2 p {
     display: none;
@@ -201,5 +205,35 @@
   .achievement-content-section2 .achievement-title2 {
     text-align: center;
     font-size: 19px;
+  }
+  .achievement-content-section .achievement-content h3 {
+    /* color: #5d5d5d; */
+    font-size: 20px;
+    /* font-size: 2rem; */
+    color: #ff0077;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+  }
+  .achievement-section .achievement-content p {
+    /* font-family: sans-serif; */
+    line-height: 2rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+  }
+  .achievement-content-section2 .achievement-content2 h3 {
+    /* color: #5d5d5d; */
+    font-size: 20px;
+    /* font-size: 2rem; */
+    color: #ff0077;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+  }
+  .achievement-section2 .achievement-content2 p {
+    /* font-family: sans-serif; */
+    line-height: 2rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
   }
 }
